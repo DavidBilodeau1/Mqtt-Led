@@ -1,0 +1,5 @@
+exécuter la commande curl install docker
+
+exécuter la commande:
+docker run --name mqtt --restart=always --net=host -tid -v /volume1/docker/mqtt/config:/mqtt/config:ro toke/mosquitto
+
